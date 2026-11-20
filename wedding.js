@@ -35,7 +35,7 @@ if (updateCountdown()) {
 }
 
 const hero = document.querySelector(".hero");
-const backgroundImages = ["background.jpeg", "background1.jpeg", "background2.JPG"];
+const backgroundImages = ["background.jpeg", "background1.jpeg", "background2.jpg"];
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 let currentBackground = 0;
 
